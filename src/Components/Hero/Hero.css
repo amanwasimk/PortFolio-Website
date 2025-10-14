@@ -1,0 +1,58 @@
+.propic{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding: 2rem 1rem;
+}
+.propic img{
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 999px;
+    display:block;
+    margin: 0 auto 1.25rem auto;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+.hero h1{
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+    font-size: 17px;
+    margin: 0 0 1rem 0;
+    color: #333; /* optionally tune to your theme */
+}
+.hero .connect{
+    text-align: center;
+    border-radius: 2rem;
+    /* background-color: aqua; */
+    padding: 10px 20px;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1); 
+    
+}
+.hero .resume{
+    text-align: center;
+    padding: 10px 20px;
+    /* background-color: aqua; */
+    border-radius: 2rem;
+    background: black;
+    color: aliceblue;
+}
+.hero .connect-box{
+    display: flex;
+    gap:2rem;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* center the buttons container */
+}
+.hero .connect:hover{
+    transform: scale(1.05);
+}

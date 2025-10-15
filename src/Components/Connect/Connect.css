@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    color: rgb(28, 63, 94);
+    color:rgb(28, 63, 94);
     margin-bottom: 2.5rem;
 }
 .contact {
@@ -93,6 +93,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    
 }
 
 .input-field p {
@@ -113,6 +114,7 @@
 .input-field textarea {
     min-height: 150px;
     resize: vertical;
+    background-color:#CCCCCC;
 }
 
 .email-box button {
@@ -128,4 +130,10 @@
 
 .email-box button:hover {
     background: rgb(36, 76, 112);
+}
+input[type="text"]{
+    background-color:#CCCCCC ;
+}
+input[type="email"]{
+    background-color:#CCCCCC ;
 }

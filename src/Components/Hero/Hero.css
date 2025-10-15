@@ -27,7 +27,7 @@
     text-align: center;
     font-size: 17px;
     margin: 0 0 1rem 0;
-    color: #333; /* optionally tune to your theme */
+    color: #94a3b8; /* optionally tune to your theme */
 }
 .hero .connect{
     text-align: center;
@@ -37,13 +37,24 @@
     background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1); 
     
 }
-.hero .resume{
+.hero .resume,
+.hero .resume:link,
+.hero .resume:visited {
     text-align: center;
     padding: 10px 20px;
-    /* background-color: aqua; */
     border-radius: 2rem;
     background: black;
     color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.hero .resume:hover {
+    transform: translateY(-4px);
+    background: #121212;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 .hero .connect-box{
     display: flex;

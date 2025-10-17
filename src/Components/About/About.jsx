@@ -11,14 +11,12 @@ export default function About(){
 
                 <div className="about-body">
                     <p>
-                        Tech-enthusiastic and passionate engineering graduate with a strong foundation in
-                        software development, web technologies, and project coordination. Skilled in HTML,
-                        CSS, JavaScript, React.js, Java, Python, and Data Structures & Algorithms, with the
+                        Passionate engineering graduate with foundation in
+                        software development, web technologies, and Data Structures & Algorithms. Skilled in HTML,
+                        CSS, JavaScript, React.js, Java, and Python with the
                         ability to build responsive and functional applications. Experienced in project
                         management, task allocation, and team coordination through academic and
-                        extracurricular initiatives. Eager to apply analytical and problem solving skills to
-                        deliver efficient software solutions while continuously learning and adapting to
-                        emerging technologies.
+                        extracurricular initiatives.
                     </p>
 
                     <div className="about-skills">

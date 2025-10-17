@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    color:rgb(28, 63, 94);
+    color:#B0B0B0;
     margin-bottom: 2.5rem;
 }
 .contact {
@@ -16,6 +16,7 @@
     justify-content: space-between;
     gap: 2rem;
     padding: 0 1rem;
+    align-items: center;
 }
 
 .talk {
@@ -29,14 +30,14 @@
 
 .talk h2 {
     font-size: 1.8rem;
-    color: rgb(28, 63, 94);
+    color: #B0B0B0;
     margin: 0;
     text-align: center;
 }
 
 .talk .para {
     font-size: 1rem;
-    color: #4a5568;
+    color: #E0E0E0;
     line-height: 1.6;
     margin: 0 0 1rem 0;
     text-align: left;
@@ -66,7 +67,7 @@
 .talk .address p {
     margin: 0;
     font-size: 1rem;
-    color: #4a5568;
+    color: #94a3b8;
 }
 
 .talk svg {
@@ -133,7 +134,47 @@
 }
 input[type="text"]{
     background-color:#CCCCCC ;
+    width:500px;
 }
 input[type="email"]{
     background-color:#CCCCCC ;
 }
+.message h2 {
+    font-size: 1.8rem;
+    color: #B0B0B0;
+    margin: 0;
+    text-align: center;
+}
+.message{
+    margin-left: 2rem;
+    margin-top: 12rem;
+}
+/* .connect h1{
+    margin-bottom: -6rem;
+} */
+@media(max-width:768px){
+  .contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    /* width:100%; */
+  }
+  .message{
+    max-width: 100%;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
+  .message h2{
+    margin-bottom: 1.5rem;
+  }
+  input[type="text"]{
+    background-color:#CCCCCC ;
+    width:290px;
+}  }
+
+/* Show only on screens wider than 1024px */
+/* @media (max-width: 1024px) {
+  .message{
+    margin-top: 10rem;
+  }
+} */
